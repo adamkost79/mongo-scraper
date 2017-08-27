@@ -17,4 +17,4 @@ app.get('/news', function(req, res) {
   scrape(res);
 });
 
-app.listen(8080, function() { console.log('running'); });
+app.listen(prcess.env.PORT, function() { console.log('running'); });
