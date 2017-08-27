@@ -17,4 +17,4 @@ app.get('/news', function(req, res) {
   scrape(res);
 });
 
-app.listen(prcess.env.PORT, function() { console.log('running'); });
+app.listen(process.env.PORT, function() { console.log('running'); });
