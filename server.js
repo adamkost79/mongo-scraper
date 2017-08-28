@@ -2,6 +2,9 @@ var express = require('express');
 var scrape = require('./scraper');
 var path = require('path');
 var exphbs = require('express-handlebars');
+var mongoose = require('mongoose');
+
+mongoose.connect('mongodb://adamkost79:Adam7258@ds161503.mlab.com:61503/mongo-scraper');
 
 var app = express();
 
