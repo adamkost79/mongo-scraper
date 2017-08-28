@@ -4,7 +4,7 @@ var path = require('path');
 var exphbs = require('express-handlebars');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://adamkost79:Adam7258@ds161503.mlab.com:61503/mongo-scraper');
+mongoose.connect('mongodb://adamkost79:password1979@ds161503.mlab.com:61503/mongo-scraper');
 
 var app = express();
 
